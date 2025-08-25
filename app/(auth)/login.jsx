@@ -1,4 +1,9 @@
-import { StyleSheet, Text, TouchableWithoutFeedback } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  TouchableWithoutFeedback,
+  Keyboard,
+} from "react-native";
 import { Link } from "expo-router";
 import { useState } from "react";
 
