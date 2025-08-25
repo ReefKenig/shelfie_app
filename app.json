@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "shelfie_app",
     "scheme": "shelfieapp",
+    "name": "shelfie_app",
     "slug": "shelfie_app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "dark",
+    "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
