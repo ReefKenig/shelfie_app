@@ -14,12 +14,16 @@ import ThemedText from "../../components/ThemedText";
 import ThemedButton from "../../components/ThemedButton";
 import ThemedTextInput from "../../components/ThemedTextInput";
 import Spacer from "../../components/Spacer";
+import { useUser } from "../hooks/useUser";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
+  const { user } = useUser();
+
   const handleSubmit = () => {
+    console.log("Current user: ", user);
     console.log("Login form submitted", email, password);
   };
 
