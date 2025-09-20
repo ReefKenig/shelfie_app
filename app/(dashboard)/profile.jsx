@@ -8,11 +8,12 @@ import Spacer from "../../components/Spacer";
 import ThemedButton from "../../components/ThemedButton";
 
 const Profile = () => {
-  const { logout } = useUser();
+  const { user, logout } = useUser();
+
   return (
     <ThemedView style={styles.container}>
       <ThemedText title={true} style={styles.heading}>
-        Your Email
+        {user.email}
       </ThemedText>
 
       <Spacer />
