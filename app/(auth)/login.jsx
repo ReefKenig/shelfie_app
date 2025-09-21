@@ -9,12 +9,13 @@ import { useState } from "react";
 
 import { Colors } from "../../constants/Colors";
 
+import { useUser } from "../hooks/useUser";
+
 import ThemedView from "../../components/ThemedView";
 import ThemedText from "../../components/ThemedText";
 import ThemedButton from "../../components/ThemedButton";
 import ThemedTextInput from "../../components/ThemedTextInput";
 import Spacer from "../../components/Spacer";
-import { useUser } from "../hooks/useUser";
 
 const Login = () => {
   const [email, setEmail] = useState("");
