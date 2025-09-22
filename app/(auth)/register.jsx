@@ -9,7 +9,7 @@ import { useState } from "react";
 
 import { Colors } from "../../constants/Colors";
 
-import { useUser } from "../hooks/useUser";
+import { useUser } from "../../hooks/useUser";
 
 import ThemedView from "../../components/ThemedView";
 import ThemedText from "../../components/ThemedText";
